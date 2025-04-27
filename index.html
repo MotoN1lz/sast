@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>San Andreas State Troopers - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>San Andreas State Troopers (SAST)</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="command.html">Chain of Command</a>
+      <a href="structure.html">Uniforms & Vehicles</a>
+      <a href="apply.html">Apply</a>
+    </nav>
+    <div class="mobile-nav" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="command.html">Chain of Command</a>
+      <a href="structure.html">Uniforms & Vehicles</a>
+      <a href="apply.html">Apply</a>
+    </div>
+  </header>
+  
+
+  <main>
+    <div class="content">
+      <h2>Who We Are</h2>
+      <p>Introducing SAST, the best Department to join in PSRP! We are extremely mature, professional, kind, and proud of our community.</p>
+  
+      <p>SAST is dedicated to catching criminals and keeping San Andreas safe. We have been serving proudly since 1951 and continue to grow every day.</p>
+  
+      <a href="about.html" class="button">Learn More</a>
+    </div>
+  </main>
+  
+
+<footer>
+  <p>San Andreas State Troopers © 2025 | PSRP Community</p>
+</footer>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
